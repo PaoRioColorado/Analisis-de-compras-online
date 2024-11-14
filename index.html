@@ -1,41 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analisis de Compras</title>
+    <title>Análisis de Compras Online</title>
     <style>
+        /* Estilos generales */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            text-align: center;
-            margin-top: 20px;
+            background-color: #f7f7f7;
             color: #333;
         }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #4CAF50;
+        }
+
+        /* Contenedor principal */
         .container {
-            max-width: 1200px;
+            width: 90%;
             margin: 0 auto;
             padding: 20px;
         }
-        iframe {
-            width: 100%;
-            height: 600px;
-            border: none;
+
+        /* Sección de introducción */
+        .intro {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .intro p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        /* Sección de autores */
+        .authors {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .authors p {
+            font-size: 1.2em;
+            font-style: italic;
+            color: #666;
+        }
+
+        /* Botón de interacción */
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            display: inline-block;
             margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Dashboard de Compras</h1>
-        <p style="text-align: center;">A continuación se muestra el análisis del comportamiento de compra de los últimos 12 meses.</p>
 
-        <!-- Incrustar el iframe del informe de Power BI -->
-        <iframe src="TU_ENLACE_DE_POWER_BI" title="Power BI Dashboard"></iframe>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Análisis de Compras Online</h1>
+        <h2>Descubre los patrones y tendencias de los usuarios</h2>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+
+        <!-- Introducción al proyecto -->
+        <div class="intro">
+            <h2>Propósito del Proyecto</h2>
+            <p>El objetivo de este análisis es comprender mejor el comportamiento de los consumidores en línea durante el último año. Analizamos los horarios de compra, las categorías de productos más populares y los dispositivos utilizados por los clientes. A través de este estudio, buscamos proporcionar información valiosa que permita mejorar las estrategias de marketing y optimizar las experiencias de compra.</p>
+        </div>
+
+        <!-- Autores -->
+        <div class="authors">
+            <h2>Autores</h2>
+            <p>Este proyecto fue realizado por:</p>
+            <p><strong>Paola Dueña</strong> y <strong>Sabrina Pagella</strong></p>
+        </div>
+
+        <!-- Botón para ver el análisis en Power BI -->
+        <a href="https://paoriocolorado.github.io/Analisis-de-compras-online/" class="btn" target="_blank">Ver el Análisis en Power BI</a>
+
     </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Análisis de Compras Online. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
+
 </html>
+
